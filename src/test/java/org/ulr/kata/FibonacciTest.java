@@ -38,9 +38,9 @@ public class FibonacciTest {
     }
 
     @Test
-    public void testFibZero() {
-        int result = fib.fibonacci(0);
-        assertEquals(0, result);
+    public void testFib() {
+        assertEquals(0, fib.fibonacci(0));
+        assertEquals(1, fib.fibonacci(1));
     }
 
 }
