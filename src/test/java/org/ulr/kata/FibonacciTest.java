@@ -39,8 +39,10 @@ public class FibonacciTest {
 
     @Test
     public void testFib() {
-        assertEquals(0, fib.fibonacci(0));
-        assertEquals(1, fib.fibonacci(1));
+        int[][] suite = {{0, 0}, {1, 1}, {2, 1}, {3, 2}};
+        for (int i = 0; i < 0; i++) {
+            assertEquals(suite[i][1], fib.fibonacci(suite[i][0]));
+        }
     }
 
 }
