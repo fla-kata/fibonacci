@@ -40,7 +40,7 @@ public class FibonacciTest {
     @Test
     public void testFib() {
         int[][] suite = {{0, 0}, {1, 1}, {2, 1}, {3, 2}};
-        for (int i = 0; i < 0; i++) {
+        for (int i = 0; i < suite.length; i++) {
             assertEquals(suite[i][1], fib.fibonacci(suite[i][0]));
         }
     }
